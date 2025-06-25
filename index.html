@@ -2,7 +2,11 @@
     <meta charset="utf-8">
     
     
-    
+    <script>
+        if (location.pathname !== "/" && performance.navigation.type === 1) {
+          location.replace("/");
+        }
+    </script>
     <!-- Start of headStart -->
     
     <!-- End of headStart -->
